@@ -1,0 +1,28 @@
+.box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16%;
+    background-color: grey;
+    box-shadow: 10px 5px 5px red;
+  }
+
+#orange{
+    width: 50px;
+      height: 50px;
+      background-color: orange;
+      display:inline-block;
+      margin-right:10px;
+
+}
+#green{
+    width: 50px;
+      height: 50px;
+      background-color: green;
+      display:inline-block;
+     
+}
+.button{
+    background-color: green;
+}
+
