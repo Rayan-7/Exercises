@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  
+  <body>
+    <script id="store-template" type="text/x-handlebars-template">
+        <div>
+          <span> {{ item }} </span> - <span>{{ price }} Dollars </span>
+        </div>
+      </script>
+
+      <script id="store-template1" type="text/x-handlebars-template">
+        <div>
+            {{#each animals}}
+          <span> {{ item1 }} </span>
+            {{/each}}
+        </div>
+      </script>
+      
+      <div class="items">
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+     <script src="script.js"></script>
+  </body>
+</html>
